@@ -18,10 +18,10 @@ while(true)
         {
             break;
         }
-        Console.Write($"{token.Kind} : {token.Text}");
+        Console.Write($"{token.Kind} : '{token.Text}'");
         if(token.Value != null)
         {
-            Console.Write($"{token.Value}");
+            Console.Write($"  {token.Value}");
         }
 
         Console.WriteLine();
@@ -103,15 +103,16 @@ class Lexer
         {
             var start = _position;
 
-            while(char.IsDigit(Current))
+            while (char.IsDigit(Current))
             {
                 Next();
+            }
 
                 var length = _position - start;
                 var text = _text.Substring(start, length);
-               
-                return new SyntaxToken(SyntaxKind.NumberToken, start, text,null);
-            }
+                int.TryParse(text, out var value);
+                return new SyntaxToken(SyntaxKind.NumberToken, start, text, value);
+            
         }
 
         if (char.IsWhiteSpace(Current))
@@ -124,8 +125,8 @@ class Lexer
 
                 var length = _position - start;
                 var text = _text.Substring(start, length);
-                int.TryParse(text, out var value);
-                return new SyntaxToken(SyntaxKind.WhiteSpaceToken, start, text, value);
+              
+                return new SyntaxToken(SyntaxKind.WhiteSpaceToken, start, text,null);
             }
         }
 
