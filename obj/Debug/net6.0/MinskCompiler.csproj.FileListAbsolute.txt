@@ -1,0 +1,14 @@
+C:\Users\Manikarnika\Documents\MinskCompiler\bin\Debug\net6.0\MinskCompiler.exe
+C:\Users\Manikarnika\Documents\MinskCompiler\bin\Debug\net6.0\MinskCompiler.deps.json
+C:\Users\Manikarnika\Documents\MinskCompiler\bin\Debug\net6.0\MinskCompiler.runtimeconfig.json
+C:\Users\Manikarnika\Documents\MinskCompiler\bin\Debug\net6.0\MinskCompiler.dll
+C:\Users\Manikarnika\Documents\MinskCompiler\bin\Debug\net6.0\MinskCompiler.pdb
+C:\Users\Manikarnika\Documents\MinskCompiler\obj\Debug\net6.0\MinskCompiler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manikarnika\Documents\MinskCompiler\obj\Debug\net6.0\MinskCompiler.AssemblyInfoInputs.cache
+C:\Users\Manikarnika\Documents\MinskCompiler\obj\Debug\net6.0\MinskCompiler.AssemblyInfo.cs
+C:\Users\Manikarnika\Documents\MinskCompiler\obj\Debug\net6.0\MinskCompiler.csproj.CoreCompileInputs.cache
+C:\Users\Manikarnika\Documents\MinskCompiler\obj\Debug\net6.0\MinskCompiler.dll
+C:\Users\Manikarnika\Documents\MinskCompiler\obj\Debug\net6.0\refint\MinskCompiler.dll
+C:\Users\Manikarnika\Documents\MinskCompiler\obj\Debug\net6.0\MinskCompiler.pdb
+C:\Users\Manikarnika\Documents\MinskCompiler\obj\Debug\net6.0\MinskCompiler.genruntimeconfig.cache
+C:\Users\Manikarnika\Documents\MinskCompiler\obj\Debug\net6.0\ref\MinskCompiler.dll
